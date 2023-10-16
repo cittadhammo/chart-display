@@ -86,7 +86,11 @@
 
 		li {
 			width: 50%;
+			&.landscape{
+				width: 100%;
+			}
 		}
+		
 
 		a {
 			padding: 0 1.5rem;
@@ -96,6 +100,9 @@
 	@media (min-width: $breakpoint-medium) {
 		li {
 			width: 33.33333%;
+			&.landscape{
+				width: 66.66666%;
+			}
 		}
 	}
 
@@ -126,7 +133,7 @@
 		position: relative;
 
 		&:before {
-			content: "View Project";
+			content: "View Chart";
 			color: $color-white;
 			@extend .h2;
 			font-weight: 800;

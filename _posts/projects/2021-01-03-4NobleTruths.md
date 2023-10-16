@@ -5,7 +5,6 @@ side: Charts
 # category: Hierarchical
 category: Digital
 
-
 meta:
   keywords: ""
 
