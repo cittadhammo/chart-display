@@ -26,4 +26,19 @@
 	// });
 
 	// sr.reveal('.project li');
+
+	const article = $("article");
+	const height = article.height() + 48;
+	$(".project aside").css("min-height", height);
+
+	window.onresize = doALoadOfStuff;
+
+	function doALoadOfStuff() {
+	    //do a load of stuff
+			const article = $("article");
+			const height = article.height() + 48;
+			$(".project aside").css("min-height", height);
+
+	}
+	
 }(jQuery));

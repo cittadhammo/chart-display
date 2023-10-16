@@ -1,4 +1,4 @@
-<footer class="footer">
+<!-- <footer class="footer">
 	<div class="container">
 		<section class="contact">
 			<h2>Contact</h2>
@@ -13,19 +13,20 @@
 			</ul>
 		</section>
 	</div>
+</footer> -->
+
+<footer class="footer">
+	<div class=" foot" >
+		<section class="contact">
+			<h2>Contact</h2>
+			<img src="{{ "/assets/images/icons/mail.png" | prepend: site.baseurl }}">
+		</section>
+		<section class="follow">
+			<h2>Share & Discuss</h2>
+			<p class="rouge-first"><a target="_blank" title="discord" href="https://discord.gg/MkyKZh8ANy">Discord Server</a>
+			</p>
+		</section>
+	</div>
 </footer>
-<script>
-	// external js: masonry.pkgd.js, imagesloaded.pkgd.js
 
-	var grid = document.querySelector('.projects-list');
-	var msnry;
 
-	imagesLoaded( grid, function() {
-	// init Isotope after all images have loaded
-	msnry = new Masonry( grid, {
-		itemSelector: '.grid-item',
-		percentPosition: true
-	});
-	});
-
-</script>
