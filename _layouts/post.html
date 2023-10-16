@@ -136,22 +136,21 @@
 				</aside>
 			</div>
 		</section>
+		
 		<section class="project-navigation">
 			<div class="container">
 
 				{% if page.next.url %}
-				<a class="black-under" title="Previous {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}"
-					class="prev">
+				<a class="prev" title="Previous {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}">
 					<span class="h2">Previous</span>
 					<h2>{{ page.next.project.title }}</h2>
 				</a>
 				{% else %}
-				<a class="black-under" class="prev"></a>
+				<aclass="prev"></a>
 				{% endif %}
 
 				{% if page.previous.url %}
-				<a class="black-under" title="Next {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}"
-					class="next">
+				<a title="Next {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="next">
 					<span class="h2">Next</span>
 					<h2>{{ page.previous.project.title }}</h2>
 				</a>
