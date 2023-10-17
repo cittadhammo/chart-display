@@ -9,12 +9,12 @@ Using the [Pinaple](https://github.com/DhammaCharts/pineapple) template
 - Import nice charts in Others
 - Fix JoeRucker
 - Fix names
-- Fix masonry
+- ~~Fix masonry~~
 - Add masonry to links
 - Update charts page
     - links to image, fullscreen, etc.
 - change email image
 - Fix high res files, SVG etc.
-- Dix sources links
+- Div sources links
 
 
