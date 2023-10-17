@@ -7,7 +7,7 @@ title: Links
 <div class="flex-container">
   <div class="flex-left">
 
-  {% include module2.html
+  {% include moduleInSite.html
   image_path="assets/images/links/upload.png"
   link="/upload.html"
   title="Upload"
