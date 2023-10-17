@@ -54,9 +54,9 @@ title: Links
   description="JS library for creating charts" %}
 
   {% include module.html
-  image_path="assets/images/links/toolur.png"
-  link="https://compressimage.toolur.com/"
-  title="Toolur"
+  image_path="assets/images/links/logo444.png"
+  link="https://www.websiteplanet.com/webtools/imagecompressor/"
+  title="Websiteplanet"
   description="Image Resizer & Optimizer" %}
 
   </div>
